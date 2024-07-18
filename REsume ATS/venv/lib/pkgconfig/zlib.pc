@@ -1,0 +1,13 @@
+prefix=/Users/juyinshafaqinamdar/Desktop/REsume ATS/venv
+exec_prefix=/Users/juyinshafaqinamdar/Desktop/REsume ATS/venv
+libdir=/Users/juyinshafaqinamdar/Desktop/REsume ATS/venv/lib
+sharedlibdir=/Users/juyinshafaqinamdar/Desktop/REsume ATS/venv/lib
+includedir=/Users/juyinshafaqinamdar/Desktop/REsume ATS/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

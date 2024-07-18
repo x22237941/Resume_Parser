@@ -1,0 +1,13 @@
+prefix=/Users/juyinshafaqinamdar/Desktop/CODE/REsume ATS eidit/venv
+exec_prefix=/Users/juyinshafaqinamdar/Desktop/CODE/REsume ATS eidit/venv
+libdir=/Users/juyinshafaqinamdar/Desktop/CODE/REsume ATS eidit/venv/lib
+sharedlibdir=/Users/juyinshafaqinamdar/Desktop/CODE/REsume ATS eidit/venv/lib
+includedir=/Users/juyinshafaqinamdar/Desktop/CODE/REsume ATS eidit/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

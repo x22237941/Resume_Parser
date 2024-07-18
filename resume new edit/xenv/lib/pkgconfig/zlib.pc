@@ -1,0 +1,13 @@
+prefix=/Users/juyinshafaqinamdar/Desktop/CODE/resume new edit/xenv
+exec_prefix=/Users/juyinshafaqinamdar/Desktop/CODE/resume new edit/xenv
+libdir=/Users/juyinshafaqinamdar/Desktop/CODE/resume new edit/xenv/lib
+sharedlibdir=/Users/juyinshafaqinamdar/Desktop/CODE/resume new edit/xenv/lib
+includedir=/Users/juyinshafaqinamdar/Desktop/CODE/resume new edit/xenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
