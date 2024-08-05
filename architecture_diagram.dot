@@ -1,0 +1,62 @@
+
+digraph G {
+    rankdir=LR;
+    node [shape=box];
+
+    A [label="Input Data"];
+    B [label="Data Extraction Module"];
+    C [label="PDF Extraction"];
+    D [label="Word Document Extraction"];
+    E [label="Load and read PDF files"];
+    F [label="Extract text content from each page"];
+    G [label="Load and read .docx files"];
+    H [label="Extract text content from paragraphs"];
+    I [label="Text Processing Module"];
+    J [label="Section Identification"];
+    K [label="Text Cleaning"];
+    L [label="Identify and extract 'Skills' sections"];
+    M [label="Identify and extract 'Experience' sections"];
+    N [label="Remove unnecessary symbols"];
+    O [label="Consolidate text into a readable format"];
+    P [label="Similarity Scoring Module"];
+    Q [label="NLP Processing with SpaCy"];
+    R [label="Similarity Calculation"];
+    S [label="Load pre-trained SpaCy model"];
+    T [label="Tokenize and vectorize text"];
+    U [label="Compute similarity score between job descriptions and resume sections using cosine similarity"];
+    V [label="Output Data"];
+    W [label="Extracted Sections (Skills and Experience)"];
+    X [label="Similarity Scores"];
+
+    A -> B;
+    B -> C;
+    B -> D;
+    C -> E;
+    C -> F;
+    D -> G;
+    D -> H;
+    E -> I;
+    F -> I;
+    G -> I;
+    H -> I;
+    I -> J;
+    I -> K;
+    J -> L;
+    J -> M;
+    K -> N;
+    K -> O;
+    L -> P;
+    M -> P;
+    N -> P;
+    O -> P;
+    P -> Q;
+    P -> R;
+    Q -> S;
+    Q -> T;
+    R -> U;
+    S -> U;
+    T -> U;
+    U -> V;
+    V -> W;
+    V -> X;
+}
